@@ -1,0 +1,16 @@
+EXERCISE 2
+Afer running the program a couple of times you can see that the better degree is around 4-6. 
+The testMSE decreases for degree 1-3. However, after degree 4 it starts to increase again for some of the simulations. 
+Therefore, we can conclude that degree 4 is the best fitted one even though sometimes degree 5 and 6 have lower MSE values
+
+EXERCISE 3 TASK 6
+After each run the outputs are close as each other but not the same since we shuffle each time
+When switching so that the number of observation for the test and training data we still see good
+outputs but this is due to a large number of observations, however the output is not reliable because the model
+is not properly trained and overfitting is present. Therefore, it is better to use a larger training set. The difference
+between training and testing is expected. We can often see that the errors are lower in the testing and the accuracy higher.
+This is because we have trained the model well.
+
+EXERCISE 5 TASK 2
+After changing the C to 1 we spot not to much difference. However the decision boundaries differs a little and more
+errors are occuring. For example C=10000 with degree 9 gave 15 errors, but C=1 with same degree gave 20 errors. 
